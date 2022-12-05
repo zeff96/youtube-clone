@@ -2,16 +2,13 @@
   display: flex;
   width: 100%;
   background-color: #fff;
-  justify-content: space-evenly;
   align-items: center;
-  vertical-align: top;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 7.5rem;
   z-index: 100;
-  cursor: pointer;
 }
 
 .logo-section {
@@ -20,20 +17,23 @@
   align-items: center;
   width: 30rem;
   margin-right: 3rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .hamburger-logo{
-  width: 5rem;
-  margin-right: 1rem;
+  width: 4rem;
+  cursor: pointer;
 }
 
 .youtube-logo {
-  width: 20rem;
+  width: 15rem;
+  cursor: pointer;
 }
 
 .search-section {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   flex: 1;
   margin-right: 4.5rem;
 }
@@ -45,10 +45,10 @@
 .search-input {
   display: block;
   width: 100%;
-  min-width: 20rem;
-  padding: 1.5rem;
+  min-width: 10rem;
+  padding: 1.2rem 2rem;
   border: 1px solid #000;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 
 .search-input::placeholder {
@@ -56,8 +56,9 @@
 }
 
 .div-search {
-  width: 6rem;
+  width: 4rem;
   position: relative;
+  cursor: pointer;
 }
 .search-icon {
   width: 100%;
@@ -71,10 +72,11 @@
   font-size: 1.5rem;
   color: white;
   background-color: gray;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   position: absolute;
   left: 0;
   display: none;
+  margin-top: -0.5rem;
 }
 
 .div-search:hover .search-label,
@@ -86,48 +88,54 @@
 }
 
 .div-voice-search {
-  width: 5rem;
+  width: 4rem;
+  cursor: pointer;
 }
 
 .voice-search-label {
   position: absolute;
   background-color: gray;
   color: white;
-  padding: 0.5rem;
-  font-size:1.5rem;
+  padding: 0.2rem 1rem;
+  font-size: 1.5rem;
   display: none;
+  margin-top: -0.2rem;
 }
 
 .user-profile-section {
-  width: 40rem;
+  width: 30rem;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
   margin-right: 3.5rem;
 }
 
 .upload-button {
   position: relative;
   margin-right: 2rem;
+  cursor: pointer;
 }
 
 .upload-button-icon {
-  width: 5rem;
+  width: 4rem;
   object-fit: cover;
 }
 
 .youtube-apps {
   position: relative;
+  cursor: pointer;
 }
 
 .youtube-apps-button {
-  width: 5rem;
+  width: 4rem;
 }
 
 .notification-button {
   position: relative;
   margin-left: 2rem;
+  cursor: pointer;
 }
 
 .notification-button-icon {
-  width: 5rem;
+  width: 4rem;
 }

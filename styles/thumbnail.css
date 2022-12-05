@@ -12,4 +12,33 @@
 
 .author-thumbnail {
   display: flex;
+  margin-top: 1rem;
+}
+
+.author-profile-picture {
+  width: 3rem;
+  object-fit: cover;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.video-title p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.author-name p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.video-stats p {
+  font-size: 1.6rem;
 }
