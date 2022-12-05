@@ -5,42 +5,148 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>youtube-clone</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header-section.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/thumbnail.css">
 </head>
 <body>
   <header class="header" id="header">
-    <nav class="topbar" id="top-bar">
+    <nav class="top-bar" id="top-bar">
       <div class="logo-section" id="logo-section">
-        <div>
-          <img src="header-icons/hamburger-menu.svg" alt="" class="hamburger-logo">
+        <div class="hamburger-logo">
+          <img src="header-icons/hamburger-menu.svg" alt="" class="hamburger-logo-icon">
         </div>
-        <div>
-          <img src="header-icons/youtube-logo.svg" alt="" class="youtube-logo">
+        <div class="youtube-logo">
+          <img src="header-icons/youtube-logo.svg" alt="" class="youtube-logo-icon">
         </div>
       </div>
       <div class="search-section" id="search-section">
-        <div>
-          <input type="search" name="search" id="search-input" class="seach-input" placeholder="search">
+        <div class="input-search">
+          <input type="search" name="search" id="search-input" class="search-input" placeholder="search">
         </div>
-        <div>
+        <div class="div-search">
           <img src="header-icons/search.svg" alt="" class="search-icon">
+          <div class="search-label">
+            search
+          </div>
         </div>
-        <div>
+        <div class="div-voice-search">
           <img src="header-icons/voice-search-icon.svg" alt="" class="voice-search-icon">
+          <div class="voice-search-label">
+            voice
+          </div>
         </div>
       </div>
-
       <div class="user-profile-section">
-        <div>
-          <img src="header-icons/upload.svg" alt="" class="upload-button">
+        <div class="upload-button">
+          <img src="header-icons/upload.svg" alt="" class="upload-button-icon">
+          <div class="upload-button-label">
+            create
+          </div>
         </div>
-        <div>
+        <div class="youtube-apps">
           <img src="header-icons/youtube-apps.svg" alt="" class="youtube-apps-button">
+          <div class="youtube-menu-label">
+            menu
+          </div>
         </div>
+        <div class="notification-button">
+          <img src="header-icons/notifications.svg" alt="" class="notification-button-icon">
+          <div class="notification-label">
+            notification
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="side-bar" id="side-bar">
+      <div class="sidebar">
         <div>
-          <img src="header-icons/notifications.svg" alt="" class="notification-button">
+          <img src="sidebar-icons/home.svg" alt="" class="home-icon">
+        </div>
+        <div class="sidebar-title">
+          Home
+        </div>
+      </div>
+      <div class="sidebar">
+        <div>
+          <img src="sidebar-icons/explore.svg" alt="" class="explore-icon">
+        </div>
+        <div class="sidebar-title">
+          Explore
+        </div>
+      </div>
+      <div class="sidebar">
+        <div>
+          <img src="sidebar-icons/library.svg" alt="" class="library-icon">
+        </div>
+        <div class="sidebar-title">
+          Library
+        </div>
+      </div>
+      <div class="sidebar">
+        <div>
+          <img src="sidebar-icons/originals.svg" alt="" class="original-icon">
+        </div>
+        <div class="sidebar-title">
+          Originals
+        </div>
+      </div>
+      <div class="sidebar">
+        <div>
+          <img src="sidebar-icons/subscriptions.svg" alt="" class="subscriptions-icon">
+        </div>
+        <div class="sidebar-title">
+          Subscriptions
+        </div>
+      </div>
+      <div class="sidebar">
+        <div>
+          <img src="sidebar-icons/youtube-music.svg" alt="" class="youtube-music-icon">
+        </div>
+        <div class="sidebar-title">
+          Youtube Music
         </div>
       </div>
     </nav>
   </header>
+  <main class="main-doc" id="main-doc">
+    <section class="thumbnail">
+      <div class="video-thumbnail">
+        <img src="video-thumbnails/thumbnail-1.webp" alt="" class="image-thumbnail">
+      </div>
+      <div class="author-thumbnail"></div>
+    </section>
+    <section class="thumbnail">
+      <div class="video-thumbnail">
+        <img src="video-thumbnails/thumbnail-2.webp" alt="" class="image-thumbnail">
+      </div>
+      <div class="author-thumbnail"></div>
+    </section>
+    <section class="thumbnail">
+      <div class="video-thumbnail">
+        <img src="video-thumbnails/thumbnail-3.webp" alt="" class="image-thumbnail">
+      </div>
+      <div class="author-thumbnail"></div>
+    </section>
+    <section class="thumbnail">
+      <div class="video-thumbnail">
+        <img src="video-thumbnails/thumbnail-4.webp" alt="" class="image-thumbnail">
+      </div>
+      <div class="author-thumbnail"></div>
+    </section>
+    <section class="thumbnail">
+      <div class="video-thumbnail">
+        <img src="video-thumbnails/thumbnail-5.webp" alt="" class="image-thumbnail">
+      </div>
+      <div class="author-thumbnail"></div>
+    </section>
+    <section class="thumbnail">
+      <div class="video-thumbnail">
+        <img src="video-thumbnails/thumbnail-6.webp" alt="" class="image-thumbnail">
+      </div>
+      <div class="author-thumbnail"></div>
+    </section>
+  </main>
 </body>
 </html>

@@ -1,0 +1,35 @@
+.side-bar {
+  position: fixed;
+  background-color: #fff;
+  top: 7.5rem;
+  left: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 200;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: relative;
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+
+.youtube-music-icon {
+  margin-bottom: 1rem;
+}
+
+.sidebar-title {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%,-20%);
+}

@@ -7,3 +7,10 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(208, 205, 205);
+  padding-left: 8.5rem;
+  padding-top: 8.5rem;
+  padding-right: 1.5rem;
+}

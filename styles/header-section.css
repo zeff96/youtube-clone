@@ -1,11 +1,17 @@
 .top-bar {
   display: flex;
   width: 100%;
+  background-color: #fff;
   justify-content: space-evenly;
   align-items: center;
   vertical-align: top;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 7.5rem;
+  z-index: 100;
+  cursor: pointer;
 }
 
 .logo-section {
@@ -14,6 +20,7 @@
   align-items: center;
   width: 30rem;
   margin-right: 3rem;
+  margin-left: 2rem;
 }
 
 .hamburger-logo{
