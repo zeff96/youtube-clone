@@ -68,7 +68,8 @@
 .search-label,
 .upload-button-label,
 .youtube-menu-label,
-.notification-label{
+.notification-label,
+.voice-search-label{
   font-size: 1.5rem;
   color: white;
   background-color: gray;
@@ -90,16 +91,7 @@
 .div-voice-search {
   width: 4rem;
   cursor: pointer;
-}
-
-.voice-search-label {
-  position: absolute;
-  background-color: gray;
-  color: white;
-  padding: 0.2rem 1rem;
-  font-size: 1.5rem;
-  display: none;
-  margin-top: -0.2rem;
+  position: relative;
 }
 
 .user-profile-section {

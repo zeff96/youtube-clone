@@ -1,11 +1,12 @@
 .main-doc {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
   gap: 1.5rem;
 }
 
 .image-thumbnail {
   width: 100%;
+  border-radius: .5rem;
   object-fit: cover;
   cursor: pointer;
 }
