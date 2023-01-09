@@ -5,9 +5,7 @@
   left: 0;
   bottom: 0;
   width: 8.5rem;
-  height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
